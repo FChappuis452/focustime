@@ -4,7 +4,7 @@ import { fontSizes, paddingSizes } from '../../utils/sizes';
 import { RoundedButton } from '../../components/RoundedButton';
 
 const HistoryItem = ({ item, index }) => {
-  return <Text style={styles.historyItem(item.status)}>{item.subject}</Text>;
+  return <Text style={styles.historyItem(item.status)}>{item.subject}</Text>
 };
 
 export const FocusHistory = ({ focusHistory, onClear }) => {

@@ -33,10 +33,10 @@ export const Focus = ({ addSubject }) => {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     flexDirection: 'row',
   },
   innerContainer: {
-    flex: 0.5,
     padding: paddingSizes.md,
     justifyContent: 'center',
   },
@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
     color: colours.white,
     fontWeight: 'bold',
     fontSize: fontSizes.lg,
+    
   },
   inputContainer: {
-    flex: 0.5,
     padding: paddingSizes.md,
     flexDirection: 'row',
     alignItems: 'center',
